@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.food-section a{
+  text-decoration: none;
+  color: green;
+}
+a:hover{
+  text-decoration: underline;
+}
+.tech_work_space {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+h1, h2{
+  text-align: center;
+  font-size: 50px;
+}
+
+.discription{
+  display: flex;
+  text-align: justify;
+  margin: 30px auto;
+  width: 50%;
+}
+.natural_view{
+  display: flex;
+  justify-content: center;
+}
+.nature_gallery{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  grid-row-gap:20px;
+  grid-column-gap: 20px;
+}
+.nature_gallery img{
+  width: 400px;
+  height: 300px;
+}
+.food-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+footer ul, header ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+}
+footer a, header a{
+  color: white;
+  text-decoration: none;
+}
